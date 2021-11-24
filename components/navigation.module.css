@@ -1,0 +1,8 @@
+.nav {
+  button {
+    & + button {
+      margin-top: 8px;
+    }
+  }
+  background-color: var(--c-primary);
+}
