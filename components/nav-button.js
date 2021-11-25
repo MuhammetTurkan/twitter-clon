@@ -1,6 +1,6 @@
 import React from 'react'
 import cn from 'classnames'
-import TitleBold from './title-bold'
+import TitleBold from './text-title'
 import styles from './nav-button.module.css'
 import Button from './button'
 function NavButton({ notify, selected, children, ...props }) {
