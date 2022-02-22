@@ -17,6 +17,7 @@
   "license": "ISC",
   "dependencies": {
     "classnames": "^2.3.1",
+    "module_name": "^1.0.0",
     "next": "^12.0.3",
     "postcss-preset-env": "^7.0.1",
     "react": "^17.0.2",
