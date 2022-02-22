@@ -18,6 +18,7 @@
   "dependencies": {
     "classnames": "^2.3.1",
     "is-plain-object": "^5.0.0",
+    "lodash": "^4.17.21",
     "module_name": "^1.0.0",
     "next": "^12.0.3",
     "postcss-preset-env": "^7.0.1",
