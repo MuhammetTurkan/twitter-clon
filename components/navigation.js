@@ -15,7 +15,7 @@ import {
 import TextTitle from './text-title'
 
 import styles from './navigation.module.css'
-function Navigation({ selectedKey }) {
+function Navigation({ flat = false, selectedKey }) {
   return (
     <button type="button" className={styles.button}>
       <nav className={styles.nav}>

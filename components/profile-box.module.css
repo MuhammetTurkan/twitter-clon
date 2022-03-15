@@ -9,7 +9,7 @@
 .body {
   margin-left: 10px;
   margin-right: 20px;
-
+  position: absolude;
   * {
     display: block;
   }
