@@ -1,15 +1,16 @@
 .button {
   cursor: pointer;
   background-color: transparent;
-  color: var(--c-textColor);
   border-radius: 99px;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: var(--fade);
+  text-decoration: none;
+
   &:hover {
     color: var(--c-theme);
-    background-color: var(--c-theme-30);
+    background-color: var(--c-theme-10);
   }
 }
 

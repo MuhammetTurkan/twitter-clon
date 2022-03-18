@@ -1,7 +1,6 @@
 .box {
   padding: 10px;
-  position: absolute;
-  width: 250px;
+  color: var(--c-textcolor);
   &:hover {
     color: var(--c-textcolor);
   }
@@ -10,7 +9,7 @@
 .body {
   margin-left: 10px;
   margin-right: 20px;
-  position: absolude;
+
   * {
     display: block;
   }

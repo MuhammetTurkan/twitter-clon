@@ -6,15 +6,23 @@ import Photo from './photo'
 import { ProfileMore } from './icons'
 import TextBody from './text-body'
 
-function ProfileBox({ name = 'Muhammet Türkan', slug = '@muhammed.trkn' }) {
+function ProfileBox({
+  flat = false,
+  name = 'Muhammet Türk',
+  slug = '@muhammed.trkn'
+}) {
   return (
     <Button className={cn([styles.box])}>
-      <Photo />
-      <div className={styles.body}>
-        <TextBody bold>{name}</TextBody>
-        <TextBody className={styles.slug}>{slug}</TextBody>
-      </div>
-      <ProfileMore className={styles.icon} />
+      <Photo size={39} />
+      {!flat && (
+        <>
+          <div className={styles.body}>
+            <TextBody bold>{name}</TextBody>
+            <TextBody className={styles.slug}>{slug}</TextBody>
+          </div>
+          <ProfileMore className={styles.icon} />
+        </>
+      )}
     </Button>
   )
 }
