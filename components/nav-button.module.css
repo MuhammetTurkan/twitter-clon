@@ -1,6 +1,5 @@
 .navButton {
   position: relative;
-  color: var(--c-textColor);
   padding: 12px;
 
   svg {
@@ -11,7 +10,16 @@
       margin-right: 15px;
     }
   }
+
+  &:global(.twitter) {
+    color: var(--c-theme);
+
+    :global(html:not(.light)) & {
+      color: white;
+    }
+  }
 }
+
 .navButtonSelected {
   color: var(--c-theme);
 }
@@ -28,7 +36,7 @@
   display: flex;
   align-items: center;
   background-color: var(--c-theme);
-  color: var(--c-textColor);
+  color: white;
   font-size: 11px;
   border: 1px solid var(--c-primary);
 }

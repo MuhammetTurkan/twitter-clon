@@ -1,6 +1,7 @@
 .button {
   cursor: pointer;
   background-color: transparent;
+  color: var(--c-textColor);
   border-radius: 99px;
   display: flex;
   align-items: center;
