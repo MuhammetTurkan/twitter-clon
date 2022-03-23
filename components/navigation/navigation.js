@@ -23,11 +23,7 @@ function Navigation({ flat = false }) {
             notify={menu.notify}
             selected={selected}
             href={menu.path}
-            className={cn(
-              styles.NavButton,
-              menu.key,
-              selected && styles.navButtonSelected
-            )}
+            className={cn(styles.NavButton, menu.key)}
           >
             {selected ? menu.iconSelected : menu.icon}
             {showTitle && <TextTitle>{menu.title}</TextTitle>}

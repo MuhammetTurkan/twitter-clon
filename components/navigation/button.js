@@ -3,12 +3,12 @@ import cn from 'classnames'
 import styles from './button.module.css'
 
 import Button from '../button'
-function NavButton({ notify, selected, children, className, ...props }) {
+function NavButton({ selected, notify, children, className, ...props }) {
   return (
     <Button
       className={cn(
         styles.navButton,
-        selected && styles.navButtonSelected,
+        selected && styles.navButtonSelectedd,
         className
       )}
       {...props}

@@ -1,6 +1,7 @@
 import React, { useEffect, useLayoutEffect, useState } from 'react'
-import StoreContext from '../store'
+
 import '../styles/app.css'
+import StoreContext from '../store'
 
 export default function MyApp({ Component, pageProps }) {
   const [theme, themeSet] = useState(null)
@@ -16,11 +17,12 @@ export default function MyApp({ Component, pageProps }) {
   }
 
   useEffect(() => {
+    if (!theme) return
     const $html = document.querySelector('html')
     $html.classList.remove('light')
-    $html.classList.remove('dim')
     $html.classList.remove('dark')
-    $html.classList.add(theme)
+    $html.classList.remove('dim')
+    $html.classList.add(theme.toString())
   }, [theme])
 
   return (
