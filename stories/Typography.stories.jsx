@@ -1,3 +1,5 @@
+{
+  /*
 import React from 'react'
 import Button from '../components/button'
 import TextTitle from '../components/text-title'
@@ -12,3 +14,5 @@ export const Title = () => (
     <TextTitle bold={false}> Merhaba Dünya </TextTitle>
   </div>
 )
+*/
+}

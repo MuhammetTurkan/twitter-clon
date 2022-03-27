@@ -1,4 +1,5 @@
-import React from 'react'
+{
+  /*import React from 'react'
 import { withKnobs, boolean } from '@storybook/addon-knobs'
 
 import Button from '../components/button'
@@ -32,4 +33,6 @@ export const NavvButton = () => (
 export const Nav = () => {
   const flat = boolean('Flat', false)
   return <Navigation flat={flat} />
+}
+*/
 }

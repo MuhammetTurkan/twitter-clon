@@ -1,3 +1,5 @@
+{
+  /*
 import React from 'react'
 import Button from '../components/button'
 
@@ -45,3 +47,5 @@ export const Icon = () => (
 
 export const ProfilePhoto = () => <Photo />
 export const Box = () => <ProfileBox />
+*/
+}
